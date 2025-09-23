@@ -9,3 +9,19 @@ It will be presented at the 50th [IEEE Conference on Local Computer Networks (LC
 The code will be added before the LCN 2025.
 
 This project is licensed under the terms of the Creative Commons Attribution 4.0 International License.
+
+## Citation
+B. Denizer and O. Landsiedel, "CapAware: Capacity-Aware Uplink Bandwidth Prediction for Cellular Networks," 2025 IEEE 50th Conference on Local Computer Networks (LCN), Sydney, Australia, 2025, pp. 1-9
+```
+@INPROCEEDINGS{11146351,
+  author={Denizer, Birkan and Landsiedel, Olaf},
+  booktitle={2025 IEEE 50th Conference on Local Computer Networks (LCN)}, 
+  title={CapAware: Capacity-Aware Uplink Bandwidth Prediction for Cellular Networks}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-9},
+  keywords={Cellular networks;5G mobile communication;Bandwidth;Handover;Predictive models;Throughput;Real-time systems;Uplink;Standards;Remote control;Bandwidth prediction;handover prediction;capacity-aware;utilization;overprediction;5G},
+  doi={10.1109/LCN65610.2025.11146351}}
+
+```
