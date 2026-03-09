@@ -32,9 +32,9 @@ pip install -r requirements.txt -U
 ```
 
 4. Analyze and train handover and bandwidth prediction models
-- Train the handover prediction model
+- Train the handover prediction model (currently set to 1 epoch, set it to 1000 for real training)
 - Use the trained model to do inference on the bandwidth prediction data to create probabilities needed to train the bandwidth prediction model
-- Train the bandwidth prediction model using the new combined dataset
+- Train the bandwidth prediction model using the new combined dataset (currently set to 1 epoch, set it to 1000 for real training)
 
 ## Citation
 B. Denizer and O. Landsiedel, "CapAware: Capacity-Aware Uplink Bandwidth Prediction for Cellular Networks," 2025 IEEE 50th Conference on Local Computer Networks (LCN), Sydney, Australia, 2025, pp. 1-9

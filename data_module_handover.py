@@ -160,7 +160,7 @@ class HandoverDataModule(pl.LightningDataModule):
         self.run_id = run_id
 
         if self.dataset == 'Fjord5G-4312':
-            self.file_path = './data/CAU-4312-Fjord5G-handovers-SA-only-processed.parquet.gzip'
+            self.file_path = './data/CAU-4312-Fjord5G-handovers-processed.parquet.gzip'
             self.inputs = ['speedkmh', 'lRsrp', 'lSinr', 'lCqi'] # GPS speed + signal strength
             self.outputs = ['Handover']
         else:

@@ -85,7 +85,7 @@ class BandwidthDataModule(pl.LightningDataModule):
         self.run_id = run_id
 
         if self.dataset == "Fjord5G-4329-uplink":
-            self.file_path = './data/CAU-4329-processed.parquet.gzip'
+            self.file_path = './data/CAU-4329-Fjord5G-bandwidth-processed.parquet.gzip'
         elif self.dataset == "SURE-uplink":
             self.file_path = './data/SURE-uplink-Downtown-processed.parquet.gzip'
         elif self.dataset == "UplinkNet-uplink":
